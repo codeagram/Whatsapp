@@ -44,7 +44,8 @@ class Whatsapp:
 
 def main():
 
-    contacts = ["amma"]
+    # Add contacts
+    contacts = []
     message = "HELLO"
     PyWhat = Whatsapp(contacts, message)
     PyWhat.execution()
